@@ -39,7 +39,7 @@ export const Calculator = () => {
       transition={{ duration: 0.5 }}
       className="w-full max-w-sm mx-auto"
     >
-      <Card className="p-6 bg-gray-800 border-gray-700 shadow-2xl">
+      <Card className="p-6 bg-green-900 border-green-700 shadow-2xl">
         <CalculatorDisplay value={display} hasError={hasError} />
         
         <div className="grid grid-cols-4 gap-3">
@@ -92,7 +92,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("7")}>
+            <CalculatorButton onClick={() => inputNumber("7")}> 
               7
             </CalculatorButton>
           </motion.div>
@@ -102,7 +102,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("8")}>
+            <CalculatorButton onClick={() => inputNumber("8")}> 
               8
             </CalculatorButton>
           </motion.div>
@@ -112,7 +112,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("9")}>
+            <CalculatorButton onClick={() => inputNumber("9")}> 
               9
             </CalculatorButton>
           </motion.div>
@@ -134,7 +134,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("4")}>
+            <CalculatorButton onClick={() => inputNumber("4")}> 
               4
             </CalculatorButton>
           </motion.div>
@@ -144,7 +144,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("5")}>
+            <CalculatorButton onClick={() => inputNumber("5")}> 
               5
             </CalculatorButton>
           </motion.div>
@@ -154,7 +154,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("6")}>
+            <CalculatorButton onClick={() => inputNumber("6")}> 
               6
             </CalculatorButton>
           </motion.div>
@@ -176,7 +176,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("1")}>
+            <CalculatorButton onClick={() => inputNumber("1")}> 
               1
             </CalculatorButton>
           </motion.div>
@@ -186,7 +186,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("2")}>
+            <CalculatorButton onClick={() => inputNumber("2")}> 
               2
             </CalculatorButton>
           </motion.div>
@@ -196,7 +196,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={() => inputNumber("3")}>
+            <CalculatorButton onClick={() => inputNumber("3")}> 
               3
             </CalculatorButton>
           </motion.div>
@@ -219,7 +219,7 @@ export const Calculator = () => {
             variants={buttonVariants}
             className="col-span-2"
           >
-            <CalculatorButton onClick={() => inputNumber("0")}>
+            <CalculatorButton onClick={() => inputNumber("0")}> 
               0
             </CalculatorButton>
           </motion.div>
@@ -229,7 +229,7 @@ export const Calculator = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <CalculatorButton onClick={inputDecimal}>
+            <CalculatorButton onClick={inputDecimal}> 
               .
             </CalculatorButton>
           </motion.div>
@@ -254,7 +254,7 @@ export const Calculator = () => {
             variants={buttonVariants}
           >
             <CalculatorButton onClick={toggleSign} variant="function">
-              +/−
+              +/
             </CalculatorButton>
           </motion.div>
         </div>

@@ -20,13 +20,13 @@ export const CalculatorButton = ({
   const getVariantStyles = () => {
     switch (variant) {
       case "operator":
-        return "bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl"
+        return "bg-green-600 hover:bg-green-700 text-white font-bold text-xl"
       case "function":
-        return "bg-gray-400 hover:bg-gray-500 text-black font-semibold"
+        return "bg-green-200 hover:bg-green-300 text-green-900 font-semibold"
       case "equals":
-        return "bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl"
+        return "bg-green-700 hover:bg-green-800 text-white font-bold text-xl"
       default:
-        return "bg-gray-600 hover:bg-gray-700 text-white font-semibold text-lg"
+        return "bg-green-500 hover:bg-green-600 text-white font-semibold text-lg"
     }
   }
 

@@ -10,8 +10,8 @@ export const CalculatorDisplay = ({ value, hasError = false, className }: Calcul
   return (
     <div 
       className={cn(
-        "w-full h-20 bg-gray-900 text-white rounded-lg flex items-center justify-end px-4 mb-4 shadow-inner",
-        "border-2 border-gray-700",
+        "w-full h-20 bg-green-950 text-white rounded-lg flex items-center justify-end px-4 mb-4 shadow-inner",
+        "border-2 border-green-700",
         hasError && "bg-red-900 border-red-700",
         className
       )}
